@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-01-16T17:13:29 IST" name="Suite" finished-at="2025-01-16T17:13:33 IST" duration-ms="4307">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.LoginError()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@35aea049]" name="LoginError" class="rahulshettyacademy.tests.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2025-01-16T17:13:29 IST" name="Test" finished-at="2025-01-16T17:13:33 IST" duration-ms="4307">
+      <class name="rahulshettyacademy.tests.ErrorValidationTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@35aea049]" started-at="2025-01-16T17:13:29 IST" name="launchApplication" finished-at="2025-01-16T17:13:32 IST" duration-ms="3463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="LoginError()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@35aea049]" started-at="2025-01-16T17:13:32 IST" name="LoginError" finished-at="2025-01-16T17:13:33 IST" duration-ms="651" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginError -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:rahulshettyacademy.tests.ErrorValidationTest@35aea049]" started-at="2025-01-16T17:13:33 IST" name="tearDown" finished-at="2025-01-16T17:13:33 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- rahulshettyacademy.tests.ErrorValidationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
