@@ -15,12 +15,11 @@ public class ErrorValidationTest extends BaseTest {
 	@Test(groups = { "ErrorHandling" }, retryAnalyzer = Retry.class)
 	public void LoginError() throws IOException, InterruptedException {
 		landingPage.loginApplication("manojreddym18@gmail.com", "10jdvhidk");
-//		Assert.assertEquals("Incorrect email  password.", landingPage.getErrorMessage());
 		Assert.assertEquals("Incorrect email or password.", landingPage.getErrorMessage());
 
 	}
 
-//	@Test
+	@Test
 	public void ProductErrorValidation() throws IOException, InterruptedException {
 		String countryName = "India";
 		ProductCatalogue productCatalogue = landingPage.loginApplication("manojreddym18@gmail.com", "107Me13025@");

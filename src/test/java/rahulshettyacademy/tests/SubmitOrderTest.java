@@ -51,11 +51,9 @@ public class SubmitOrderTest extends BaseTest {
 		List<HashMap<String, String>> data = getsJsonDataMap(
 				System.getProperty("user.dir") + "//src//test//java//rahulshettyacademy//data//PurchaseOrder.json");
 
-		// Print to check the size and content of the data
 		System.out.println("Data size: " + data.size());
 		data.forEach(entry -> System.out.println(entry));
 
-		// Dynamically create Object[][] based on the size of data
 		Object[][] result = new Object[data.size()][];
 
 		for (int i = 0; i < data.size(); i++) {

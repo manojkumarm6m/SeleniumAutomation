@@ -12,10 +12,7 @@ import rahulshettyacademy.pageobjects.ConfirmationPage;
 import rahulshettyacademy.pageobjects.ProductCatalogue;
 
 public class StandAloneTest extends BaseTest {
-
-
-
-
+	
 	@Test
 	public void submitOrder() throws IOException {
 		String productName = "ZARA COAT 3";
